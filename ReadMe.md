@@ -38,7 +38,21 @@ Spring Boot Actuator
 FrondEnd
 -----------------------------------------------------------------------
 
+1.ADIM
+npx create-react-app frontend
+cd frontend
+npm start
+code .
 
+2.ADIM
+NOT: node_modules siliyoruz bunu sonrasında 
+npm i
+
+3.ADIM
+terminal: package.json seviyesinde olacak şekilde
+npm install axios
+npm install bootstrap
+npm install node-sass
 
 
 For further reference, please consider the following sections:

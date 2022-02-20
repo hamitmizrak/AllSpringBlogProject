@@ -1,0 +1,16 @@
+1.ADIM
+	 ./mvnw clean package -DskipTests
+
+
+2.ADIM
+	docker-compose up
+	docker ps
+
+3.ADIM
+	docker exec -it f6604e905ab4 psql -U postgres studentdb
+
+
+4.ADIM
+	studentdb=#  \dt ==> Tabloları göstermek
+	studentdb=#  select * from product
+	studentdb=#  \q ==> ÇIKIŞ
