@@ -1,4 +1,5 @@
 
 
 
-GİTHUB: https://github.com/hamitmizrak/AllSpringBlogProject
+GİTHUB : https://github.com/hamitmizrak/AllSpringBlogProject
+SWAGGER: http://localhost:8080/swagger-ui/index.html
