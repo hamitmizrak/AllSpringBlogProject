@@ -1,0 +1,71 @@
+REACT BAŞLATMA
+-------------------------------------------
+npm start
+code .
+
+2.ADIM
+NOT: node_modules siliyoruz bunu sonrasında
+npm i
+
+3.ADIM
+terminal: package.json seviyesinde olacak şekilde
+npm install axios --save
+npm install bootstrap
+npm install node-sass
+
+
+
+React Kurulduğunda aşağıdaki teknolojilerde kuruluyor.
+1-Babel : JavaScript compiler ES6 ==> ES5 çeviriyor
+2-WebPack
+3-Dev-Server
+
+reusability: yeniden kullanabilirlik
+
+Faker.js ==> Test verileri almak (image/address/database)
+
+ESlint: syntax hatalarımızı göstermek için kullanılıyor.
+
+JS=Babel+ESlint+WebPack
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+props ==> property
+state ==> component verileri taşıyan objedir (constructor+stateobject)
+
+//Javascriptte debug için kullanıyoruz.
+debugger;
+
+componentDidMount() ==> api,database
+componentDidUpdate() ==> güncelle
+componentWillUnMount() ==> komponent içerik temizleme
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Life cycle
+constructor()
+render()
+
+componentDidMount() ==> Veri tabanında veri almak veya servis veri almak api,database
+componentDidUpdate() ==> state veya props gelen değerlere göre güncelle
+componentWillUnMount() ==> komponent içerik temizleme
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
