@@ -1,7 +1,7 @@
 ####Special Files Properties #########################################
-frontend/node_modules
-memory_persist
-log
+frontend/node_modules/
+memory_persist/
+log/
 
 
 #####################################################################
