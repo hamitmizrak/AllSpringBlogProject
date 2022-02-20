@@ -1,0 +1,11 @@
+1XX =information
+2XX =Succes
+3XX =redirection
+
+4XX =client
+400: bad request
+401: unauthorized
+403: forbitten
+4004: not found
+
+5XX =server
