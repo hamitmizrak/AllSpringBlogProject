@@ -1,0 +1,63 @@
+2022-02-20 17:00:21.920  INFO 27468 --- [main] c.h.AllSpringBlogProjectApplicationTests : Starting AllSpringBlogProjectApplicationTests using Java 11.0.11 on DESKTOP-RTG2D08 with PID 27468 (started by Java Spring in F:\spring\AllSpringBlogProject)
+2022-02-20 17:00:21.922  INFO 27468 --- [main] c.h.AllSpringBlogProjectApplicationTests : No active profile set, falling back to default profiles: default
+2022-02-20 17:00:23.515  INFO 27468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 17:00:23.536  INFO 27468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2022-02-20 17:00:24.390  INFO 27468 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 17:00:24.484  INFO 27468 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-20 17:00:24.764  INFO 27468 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-20 17:00:26.191  INFO 27468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-20 17:00:26.519  INFO 27468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-20 17:00:26.551  INFO 27468 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-20 17:00:26.940  INFO 27468 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 17:00:26.955  INFO 27468 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 17:00:27.442  WARN 27468 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 17:00:28.099  INFO 27468 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2022-02-20 17:00:29.078  WARN 27468 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-20 17:00:29.779  INFO 27468 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d67836ea-2aa6-49e6-a3a7-a470f91f58f7
+
+2022-02-20 17:00:30.080  INFO 27468 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-20 17:00:30.149  INFO 27468 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a00237d, org.springframework.security.web.context.SecurityContextPersistenceFilter@24a807a9, org.springframework.security.web.header.HeaderWriterFilter@52d434c1, org.springframework.web.filter.CorsFilter@bc88295, org.springframework.security.web.csrf.CsrfFilter@4113d9ab, org.springframework.security.web.authentication.logout.LogoutFilter@5b5a89d1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@66f5770e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7fa8fff, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@341df373, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a7ab205, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9715d26, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d8096ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e9ed4df, org.springframework.security.web.session.SessionManagementFilter@63af52a6, org.springframework.security.web.access.ExceptionTranslationFilter@1a1f22f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c6eaa65]
+2022-02-20 17:00:30.367  INFO 27468 --- [main] c.h.AllSpringBlogProjectApplicationTests : Started AllSpringBlogProjectApplicationTests in 9.015 seconds (JVM running for 11.934)
+2022-02-20 17:00:30.790  INFO 27468 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 17:00:30.794  INFO 27468 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-20 17:00:30.801  INFO 27468 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-20 17:04:01.050  INFO 27512 --- [restartedMain] c.h.AllSpringBlogProjectApplication      : Starting AllSpringBlogProjectApplication using Java 11.0.11 on DESKTOP-RTG2D08 with PID 27512 (F:\spring\AllSpringBlogProject\target\classes started by Java Spring in F:\spring\AllSpringBlogProject)
+2022-02-20 17:04:01.051  INFO 27512 --- [restartedMain] c.h.AllSpringBlogProjectApplication      : No active profile set, falling back to default profiles: default
+2022-02-20 17:04:01.091  INFO 27512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-20 17:04:01.091  INFO 27512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-20 17:04:02.054  INFO 27512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 17:04:02.074  INFO 27512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2022-02-20 17:04:02.626  INFO 27512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-20 17:04:02.633  INFO 27512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-20 17:04:02.634  INFO 27512 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 17:04:02.736  INFO 27512 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-20 17:04:02.737  INFO 27512 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1645 ms
+2022-02-20 17:04:02.827  INFO 27512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-20 17:04:02.939  INFO 27512 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-20 17:04:02.947  INFO 27512 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2022-02-20 17:04:03.060  INFO 27512 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 17:04:03.093  INFO 27512 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-20 17:04:03.195  INFO 27512 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-20 17:04:03.292  INFO 27512 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-20 17:04:03.461  INFO 27512 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 17:04:03.470  INFO 27512 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 17:04:03.574  WARN 27512 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 17:04:04.065  WARN 27512 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-02-20 17:04:04.327  INFO 27512 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 34607c7f-f52b-497d-a8e6-39afc27a8624
+
+2022-02-20 17:04:04.420  INFO 27512 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-20 17:04:04.439  INFO 27512 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c2199f, org.springframework.security.web.context.SecurityContextPersistenceFilter@30e2c4b1, org.springframework.security.web.header.HeaderWriterFilter@6074d5ea, org.springframework.web.filter.CorsFilter@807ad29, org.springframework.security.web.csrf.CsrfFilter@e8c2c4a, org.springframework.security.web.authentication.logout.LogoutFilter@3b32ef6a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ce396b6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@15f2dee6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6260f604, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5ab6176a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48e224ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42b76eef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@412b3d44, org.springframework.security.web.session.SessionManagementFilter@35b0877d, org.springframework.security.web.access.ExceptionTranslationFilter@6ebb2f56, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b4cd640]
+2022-02-20 17:04:04.493  INFO 27512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-20 17:04:04.558  INFO 27512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-20 17:04:04.586  INFO 27512 --- [restartedMain] c.h.AllSpringBlogProjectApplication      : Started AllSpringBlogProjectApplication in 3.94 seconds (JVM running for 6.43)
+2022-02-20 17:04:07.615  INFO 27512 --- [RMI TCP Connection(2)-172.31.48.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-20 17:04:07.616  INFO 27512 --- [RMI TCP Connection(2)-172.31.48.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-20 17:04:07.618  INFO 27512 --- [RMI TCP Connection(2)-172.31.48.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-20 17:04:25.384  WARN 27512 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,365] milliseconds.
+2022-02-20 18:18:56.939  INFO 27512 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 18:18:56.970  INFO 27512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-20 18:18:56.976  INFO 27512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
