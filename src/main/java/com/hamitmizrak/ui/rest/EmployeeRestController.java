@@ -54,7 +54,7 @@ public class EmployeeRestController {
     }
 
     //UPDATE
-    // http://localhost:8080/api/v1/employees/2
+    // http://localhost:8080/api/v1/employees/1
     @PutMapping("/employees/{id}")
     public ResponseEntity<EmployeeDto> updateEmployee(@PathVariable Long id, @RequestBody EmployeeDto employeeDetails) {
         employeeServices.updateEmployee(id, employeeDetails);
@@ -62,7 +62,7 @@ public class EmployeeRestController {
     }
 
     //DELETE
-    // http://localhost:8080/api/v1/employees/7
+    // http://localhost:8080/api/v1/employees/1
     @DeleteMapping("/employees/{id}")
     public ResponseEntity<Map<String, Boolean>> deleteEmployee(@PathVariable Long id) {
         employeeServices.deleteEmployee(id);
