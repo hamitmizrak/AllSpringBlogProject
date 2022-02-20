@@ -12,6 +12,7 @@ terminal: package.json seviyesinde olacak şekilde
 npm install axios --save
 npm install bootstrap
 npm install node-sass
+npm install react-router-dom
 
 
 

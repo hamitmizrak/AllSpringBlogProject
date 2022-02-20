@@ -1,3 +1,13 @@
+
+.footer{
+  width: 100%;
+  height: 65px;
+  background-color: black;
+  color:aliceblue;
+  text-align: center;
+  position:absolute;
+}
+
 .App {
   text-align: center;
 }
