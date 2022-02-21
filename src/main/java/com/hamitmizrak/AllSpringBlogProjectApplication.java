@@ -7,10 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
-@SpringBootApplication(exclude = {
-        org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class,
-        org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration.class}
-)
+//@SpringBootApplication(exclude = {
+//        org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class,
+//        org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration.class}
+//)
+
+@SpringBootApplication
 
 //Audit aktif etmek icin auditorAware ==> Bean adı
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")
